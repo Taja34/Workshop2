@@ -1,18 +1,16 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import Planeta from '../assets/destination/image-moon.png'
-
-const Luna = () => {
-let planeta =  {
-  "name": "Moon",
-  "images": {
-    "png": "./assets/destination/image-moon.png",
-    "webp": "./assets/destination/image-moon.webp"
-  },
-  "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-  "distance": "384,400 km",
-  "travel": "3 days"
-}
+import Planeta from '../assets/destination/image-europa.png'
+const Europa = () => {
+    let planeta = {
+        "name": "Europa",
+        "images": {
+          "png": "./assets/destination/image-europa.png",
+          "webp": "./assets/destination/image-europa.webp"
+        },
+        "description": "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
+        "distance": "628 mil. km",
+        "travel": "3 years"
+      }
   return (
     <>
    
@@ -29,8 +27,7 @@ let planeta =  {
 
 
 </>
-
   )
 }
 
-export default Luna
+export default Europa

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed&family=Barlow:wght@300&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -30,6 +31,7 @@ height: 12vh;
 
 }
 .link{
+    
     font-family: 'Barlow Condensed', sans-serif;
 
     margin-left: 2vw;
@@ -37,5 +39,76 @@ height: 12vh;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 3px;
+&:active{
+    border-bottom: 1px solid #fff;
+}
+}
+.planetTitle{
+    position: absolute;
+    z-index: 2;
+    top: 24vh;
+    left: 10vw;
+    font-size: 30px;
+    letter-spacing: 7px;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.numero{
+    color: rgb(123, 123, 123);
+    margin-right: 20px;
+}
+.planeta{
+    position: absolute;
+    z-index: 5;
+    top: 40vh;
+    left: 12vw;
+    
+}
+.planeticas{
 
+    position: absolute;
+    z-index: 2;
+    right: 10vw;
+    top: 40vh;
+    display: flex;
+gap: 30px;
+
+}
+.infoplaneta{
+    position: absolute;
+    z-index: 2;
+    right: 6.5vw;
+    width: 500px;
+    top: 50vh;
+    color: #fff;
+&__name{
+    font-size: 150px;
+    font-family: 'Bellefair', serif;
+}
+&__description{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #D0D6F9
+}
+&__distancias{
+    display: flex;
+    border-top: 1px solid #d0d6f931;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 30px;
+    justify-content: space-between;
+    padding-right: 8vw;
+    &__tiltes{
+        font-size: 13px;
+        color: #D0D6F9;
+        font-family: 'Barlow', sans-serif;
+        letter-spacing: 1px;
+    }
+    &__text{
+        font-family: 'Bellefair', serif;
+
+font-size: 30px;
+    }
+}
 }

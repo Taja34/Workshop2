@@ -1,18 +1,16 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import Planeta from '../assets/destination/image-moon.png'
-
-const Luna = () => {
-let planeta =  {
-  "name": "Moon",
-  "images": {
-    "png": "./assets/destination/image-moon.png",
-    "webp": "./assets/destination/image-moon.webp"
-  },
-  "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-  "distance": "384,400 km",
-  "travel": "3 days"
-}
+import Planeta from '../assets/destination/image-titan.png'
+const Titan = () => {
+    let planeta = {
+        "name": "Titan",
+        "images": {
+          "png": "./assets/destination/image-titan.png",
+          "webp": "./assets/destination/image-titan.webp"
+        },
+        "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
+        "distance": "1.6 bil. km",
+        "travel": "7 years"
+      }
   return (
     <>
    
@@ -29,8 +27,7 @@ let planeta =  {
 
 
 </>
-
   )
 }
 
-export default Luna
+export default Titan
