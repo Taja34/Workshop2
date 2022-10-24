@@ -17,7 +17,7 @@ const Router = () => {
             
             <Route element={<Navbar />}>
             <Route path="/" element={<Inicio />} />
-            <Route element={<Planets />}>
+            <Route path="planeta" element={<Planets />}>
 
                         <Route path="Marte"  element={<Marte />} />
 

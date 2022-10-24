@@ -1,6 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
+
+}
+
+.fondoInicio{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+
+}
+.navbar{
+    margin-top: 3vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    position: absolute;
+    right: 1px;
+    z-index: 2;
+    background-color: #97979748;
+   width: 60vw;
+   padding-left: 5vw;
+height: 12vh;
+    padding-top: 2vw;
+
+}
+.link{
+    font-family: 'Barlow Condensed', sans-serif;
+
+    margin-left: 2vw;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
 
 }

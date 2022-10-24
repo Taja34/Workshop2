@@ -4,7 +4,7 @@ import Fondo from '../assets/home/background-home-desktop.jpg'
 const Inicio = () => {
   return (
     <>
-    <div> <figure><img src={Fondo} className='fondo'/></figure></div>
+    <div> <figure><img src={Fondo} className='fondoInicio'/></figure></div>
        
     </>
   )
