@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Condensed&family=Barlow:wght@300&family=Bellefair&family=Josefin+Sans:wght@200&family=Karla&family=Merriweather:wght@700&family=Roboto:wght@400;500&display=swap');
+
+.crew {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    top: 40vh;
+    left: 10vw;
+    width: 37vw;
+
+    &__role {
+        color: rgb(123, 123, 123);
+        font-family: 'Bellefair', serif;
+        font-size: 32px;
+    }
+
+    &__name {
+        font-family: 'Bellefair', serif;
+        font-size: 56px;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    &__bio {
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        color: #D0D6F9;
+        margin-top: 20px;
+    }
+}
+.person {
+    position: absolute;
+    z-index: 2;
+    width: 27%;
+    left: 60vw;
+    top: 24vh;
+    align-items: end;
+}
+.btn{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 90vh;
+    left: 10vw;
+    gap: 20px;
+    opacity: 0.5;
+
+    & img:active {
+        opacity: 1;
+    }
+}
