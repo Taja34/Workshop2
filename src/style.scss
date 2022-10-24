@@ -11,7 +11,7 @@
 
 .fondoInicio{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0px;
 
@@ -40,9 +40,12 @@ height: 12vh;
     font-size: 20px;
     letter-spacing: 3px;
 &:active{
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 50px;
 }
+
 }
+
 .planetTitle{
     position: absolute;
     z-index: 2;
@@ -111,4 +114,61 @@ gap: 30px;
 font-size: 30px;
     }
 }
+}
+.cont{
+    position: absolute;
+    z-index: 2;
+width: 500px;
+color: #fff;
+top: 20vw;
+left: 10vw;
+&__pretitle{
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: #D0D6F9
+}
+&__title{
+    margin-top: 20px;
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+}
+&__text{
+    font-size: 19px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 30px;
+    color: #D0D6F9
+}
+}
+.blanco{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    font-family: 'Bellefair', serif;
+    background-color: #fff;
+    border-radius: 150px;
+    text-align: center;
+    padding-top: 130px;
+    font-size: 30px;
+    right: 10vw;
+    top: 45vh;
+}
+.linea{
+    border-bottom: 1px solid #fff;
+
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 2.5vw;
+}
+.liniecita{
+    width: 35vw;
+    height: 1px;
+background-color: #d0d6f94a;
+position: absolute;
+z-index: 2;
+top: 5.5vw;
+left: 9vw;
 }

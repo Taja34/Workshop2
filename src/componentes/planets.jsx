@@ -14,7 +14,7 @@ const Planets = () => {
       </article>
     </aside>
     <div className='planeticas'> 
-    <Link className='link' to='Luna' >MOON</Link>
+    <Link className='link activado' to='Luna' >MOON</Link>
     <Link className='link' to='Marte'>MARS</Link>
     <Link className='link' to='Europa'>EUROPA</Link>
       <Link className='link' to='Titan'>TITAN</Link>
