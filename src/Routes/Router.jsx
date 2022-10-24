@@ -9,7 +9,7 @@ import Marte from "../componentes/Marte";
 
 import Navbar from "../componentes/Navbar";
 import Inicio from "../componentes/Inicio";
-import Planets from "../componentes/Planets";
+import Planets from "../componentes/planets";
 import Europa from "../componentes/Europa";
 import Titan from "../componentes/Titan";
 const Router = () => {
