@@ -26,7 +26,7 @@ const Router = () => {
             
             <Route element={<Navbar />}>
             <Route path="/" element={<Inicio />} />
-            <Route path="tecnologia" element={<Technology />}>
+            <Route element={<Technology />}>
 
                 <Route path="launch" element={<Launch/>}/>
                 <Route path="spaceport" element={<Spaceport/>}/>

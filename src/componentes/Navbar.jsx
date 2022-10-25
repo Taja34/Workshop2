@@ -13,7 +13,7 @@ const Navbar = () => {
        <Link to='/' className='link'> <strong >00</strong> HOME</Link>
        <Link to='Marte' className='link'> <strong >01</strong> DESTINATION</Link>
        <Link className='link' > <strong >02</strong> CREW</Link>
-       <Link to='tecnologia' className='link'> <strong >03</strong>  TECHNOLOGY</Link>
+       <Link to='launch' className='link'> <strong >03</strong>  TECHNOLOGY</Link>
     
     </header>
     <Outlet />
