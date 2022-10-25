@@ -9,9 +9,16 @@ import Marte from "../componentes/Marte";
 
 import Navbar from "../componentes/Navbar";
 import Inicio from "../componentes/Inicio";
-import Planets from "../componentes/Planets";
+import planets from "../componentes/planets";
 import Europa from "../componentes/Europa";
 import Titan from "../componentes/Titan";
+
+import Technology from "../componentes/technology";
+import Spaceport from "../componentes/spaceport";
+import Capsule from "../componentes/capsule";
+import Launch from "../componentes/launch";
+
+
 const Router = () => {
     return (
         <BrowserRouter>
@@ -19,7 +26,15 @@ const Router = () => {
             
             <Route element={<Navbar />}>
             <Route path="/" element={<Inicio />} />
-            <Route element={<Planets />}>
+            <Route path="tecnologia" element={<Technology />}>
+
+                <Route path="launch" element={<Launch/>}/>
+                <Route path="spaceport" element={<Spaceport/>}/>
+                <Route path="capsule" element={<Capsule/>}/>
+            
+            
+             </Route>
+            <Route element={<planets />}>
 
                         <Route path="Marte"  element={<Marte />} />
 

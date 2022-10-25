@@ -172,3 +172,121 @@ z-index: 2;
 top: 5.5vw;
 left: 9vw;
 }
+
+.fondoPrincipal{
+    width: 100vw;
+    height: 140vh;
+    position: absolute;
+    top: 0px;
+
+}
+.title_technology{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    padding-top: 15vw;
+    padding-left: 10vw;
+    font-size: 28px;
+    letter-spacing: 4.725px;
+    
+}
+.title_technology strong{
+    opacity: 0.25;
+}
+.main_launch{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    padding-top: 25vw;
+    padding-left: 20vw;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 32px;
+}
+.title_terminology{
+    color: rgba(208, 214, 249, 1);
+    font-size: 16px;
+
+}
+.title_Princ{
+    color: rgba(255, 255, 255, 1);
+    font-size: 56px;
+    font-family: 'Bellefair', sans-serif;
+    font-style: normal;
+    line-height: 64px;
+    margin-top: 5px;
+}
+.txt_main{
+    color: rgba(208, 214, 249, 1);
+    font-size: 18px;
+    margin-top: 10px;
+    width: 40%;
+    font-family: 'Barlow', sans-serif;
+}
+.imgMain{
+    position: absolute;
+    width: 515px;
+    height: 527px;
+    top: 272px;
+    left: 850px;
+}
+.pages_technology{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 23rem;
+    left: 8rem;
+
+}
+.page_launch{
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.page_launch :hover{
+
+    background-color: #fff;
+    color: black;
+
+}
+.page_spaceport{
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.page_capsule{
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 25px;
+    border: 1px solid white;
+    text-decoration: none;
+}
