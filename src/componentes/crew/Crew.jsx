@@ -18,7 +18,7 @@ const Crew = () => {
     </aside>
     
     <div className='btn'> 
-    <Link className='crew__link' to='commander'><figure> <img src={circle}></img></figure></Link>
+    <Link className='crew__link' to='commander'><figure> <img src={circle} className='crew__circulo'></img></figure></Link>
     <Link className='crew__link' to='missionspecialist'><figure> <img src={circle}></img></figure></Link>
     <Link className='crew__link' to='pilot'><figure> <img src={circle}></img></figure></Link>
     <Link className='crew__link' to='flightengineer'><figure> <img src={circle}></img></figure></Link>

@@ -31,14 +31,19 @@
         color: #D0D6F9;
         margin-top: 20px;
     }
+    &__circulo{
+        
+    }
 }
 .person {
     position: absolute;
     z-index: 2;
-    width: 27%;
+  
     left: 60vw;
-    top: 24vh;
+    
     align-items: end;
+    bottom: 0px
+    ;
 }
 .btn{
     display: flex;
@@ -49,7 +54,5 @@
     gap: 20px;
     opacity: 0.5;
 
-    & img:active {
-        opacity: 1;
-    }
+  
 }
